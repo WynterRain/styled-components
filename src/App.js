@@ -1,12 +1,10 @@
-import styled from "styled-components/macro"
-import { DefaultButton } from "./components/Buttons";
+import Products from "./components/Products";
 
 function App() {
 
   return (
     <div style= {{padding: "2rem"}}>
-     <DefaultButton>Click Me</DefaultButton>
-     <DefaultButton large>Click Me</DefaultButton>
+      <Products />
     </div>
   
   )
